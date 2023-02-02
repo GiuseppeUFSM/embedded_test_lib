@@ -1,4 +1,4 @@
-# micropython_test_lib_mod
+# embedded_test_lib ESP32
 
 This repository is a fork from saramonteiro's micropython_test_lib repository, which contains a method to test embedded system's drivers. In this fork I added C/C++ (Arduino) drivers and its' related test scripts and Doubles, that were written while making my term paper. They were written using Arduino IDE and use ESP32Console library.
 From this point to the end, this text is a copy of the original micropython_test_lib repository's readme where you can read how to assembly the testing environment and how the original tests work.
