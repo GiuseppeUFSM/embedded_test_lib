@@ -1,4 +1,7 @@
-# micropython_test_lib
+# micropython_test_lib_mod
+
+This repository is a fork from saramonteiro's micropython_test_lib repository, which contains a method to test embedded system's drivers. In this fork I added C/C++ (Arduino) drivers and its' related test scripts and Doubles, that were written while making my term paper. They were written using Arduino IDE and use ESP32Console library.
+From this point to the end, this text is a copy of the original micropython_test_lib repository's readme where you can read how to assembly the testing environment and how the original tests work.
 
 This repository intends to present a method and the implementation for testing embedded micropython software using TDD (Test Driven Development) and HILS (Hardware in the loop Simulation). The tests are especially for drivers, that interact directly with external hardware. This repository contains multiple artifacts such as different test cases using different protocols (UART, I2C, GPIO, BLE, SPI) that serve as examples of how to test some drivers. It also contains utilities that made the tests possible and this guide for using all this tool.
 
